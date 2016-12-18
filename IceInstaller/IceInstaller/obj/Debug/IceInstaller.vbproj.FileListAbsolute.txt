@@ -1,0 +1,10 @@
+C:\Users\Ashley\Documents\GitHub\IceLanguageCompiler\IceInstaller\IceInstaller\bin\Debug\IceInstaller.exe.config
+C:\Users\Ashley\Documents\GitHub\IceLanguageCompiler\IceInstaller\IceInstaller\obj\Debug\IceInstaller.vbprojResolveAssemblyReference.cache
+C:\Users\Ashley\Documents\GitHub\IceLanguageCompiler\IceInstaller\IceInstaller\obj\Debug\IceInstaller.Resources.resources
+C:\Users\Ashley\Documents\GitHub\IceLanguageCompiler\IceInstaller\IceInstaller\obj\Debug\IceInstaller.vbproj.GenerateResource.Cache
+C:\Users\Ashley\Documents\GitHub\IceLanguageCompiler\IceInstaller\IceInstaller\obj\Debug\IceInstaller.xml
+C:\Users\Ashley\Documents\GitHub\IceLanguageCompiler\IceInstaller\IceInstaller\bin\Debug\IceInstaller.exe
+C:\Users\Ashley\Documents\GitHub\IceLanguageCompiler\IceInstaller\IceInstaller\bin\Debug\IceInstaller.pdb
+C:\Users\Ashley\Documents\GitHub\IceLanguageCompiler\IceInstaller\IceInstaller\bin\Debug\IceInstaller.xml
+C:\Users\Ashley\Documents\GitHub\IceLanguageCompiler\IceInstaller\IceInstaller\obj\Debug\IceInstaller.exe
+C:\Users\Ashley\Documents\GitHub\IceLanguageCompiler\IceInstaller\IceInstaller\obj\Debug\IceInstaller.pdb
