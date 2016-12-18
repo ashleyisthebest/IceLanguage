@@ -1,0 +1,10 @@
+c:\users\ashley\documents\visual studio 2015\Projects\Ice\Ice\bin\Debug\Ice.exe.config
+c:\users\ashley\documents\visual studio 2015\Projects\Ice\Ice\bin\Debug\Ice.exe
+c:\users\ashley\documents\visual studio 2015\Projects\Ice\Ice\bin\Debug\Ice.pdb
+c:\users\ashley\documents\visual studio 2015\Projects\Ice\Ice\bin\Debug\Ice.xml
+c:\users\ashley\documents\visual studio 2015\Projects\Ice\Ice\obj\Debug\Ice.vbprojResolveAssemblyReference.cache
+c:\users\ashley\documents\visual studio 2015\Projects\Ice\Ice\obj\Debug\Ice.Resources.resources
+c:\users\ashley\documents\visual studio 2015\Projects\Ice\Ice\obj\Debug\Ice.vbproj.GenerateResource.Cache
+c:\users\ashley\documents\visual studio 2015\Projects\Ice\Ice\obj\Debug\Ice.exe
+c:\users\ashley\documents\visual studio 2015\Projects\Ice\Ice\obj\Debug\Ice.xml
+c:\users\ashley\documents\visual studio 2015\Projects\Ice\Ice\obj\Debug\Ice.pdb

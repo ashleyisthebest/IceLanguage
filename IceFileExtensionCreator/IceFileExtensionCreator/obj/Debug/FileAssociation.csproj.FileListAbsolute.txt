@@ -1,0 +1,5 @@
+C:\Users\Ashley\Documents\GitHub\IceLanguageCompiler\IceFileExtensionCreator\IceFileExtensionCreator\obj\Debug\FileAssociation.csprojResolveAssemblyReference.cache
+C:\Users\Ashley\Documents\GitHub\IceLanguageCompiler\IceFileExtensionCreator\IceFileExtensionCreator\bin\Debug\FileAssociation.dll
+C:\Users\Ashley\Documents\GitHub\IceLanguageCompiler\IceFileExtensionCreator\IceFileExtensionCreator\bin\Debug\FileAssociation.pdb
+C:\Users\Ashley\Documents\GitHub\IceLanguageCompiler\IceFileExtensionCreator\IceFileExtensionCreator\obj\Debug\FileAssociation.dll
+C:\Users\Ashley\Documents\GitHub\IceLanguageCompiler\IceFileExtensionCreator\IceFileExtensionCreator\obj\Debug\FileAssociation.pdb
