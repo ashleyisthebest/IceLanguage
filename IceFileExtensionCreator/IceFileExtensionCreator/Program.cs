@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using BrendanGrant.Helpers.FileAssociation;
+using System.Diagnostics;
 
 namespace IceFileExtensionCreator
 {
@@ -10,9 +11,10 @@ namespace IceFileExtensionCreator
         static void Main(string[] args)
         {
 
+            Console.WriteLine("");
+
             FileAssociationInfo fai = new FileAssociationInfo(".ice");
-            if (!fai.Exists)
-            {
+
                 fai.Create("IceFile");
 
                 //Specify MIME type (optional)
@@ -21,11 +23,10 @@ namespace IceFileExtensionCreator
                 //Programs automatically displayed in open with list
                 fai.OpenWithList = new string[]
                { "notepad.exe", "wordpad.exe", "atom.exe", "Notepad++.exe" };
-            }
+
 
             ProgramAssociationInfo pai = new ProgramAssociationInfo(fai.ProgID);
-            if (!pai.Exists)
-            {
+
                 pai.Create
                 (
                 //Description of program/file type
@@ -36,12 +37,15 @@ namespace IceFileExtensionCreator
                      //Verb name
                      "Open",
                      //Path and arguments to use
-                     @"C:\Users\Ashley\AppData\Local\atom\app-1.12.5\atom.exe %1"
+                     Environment.GetEnvironmentVariable("windir") + "\\system32\\notepad.exe %1%"
                      )
                    );
 
-                pai.DefaultIcon = new ProgramIcon(@"C:\Program Files\Ice\iceicon.ico");
-            }
+            Process regeditProcess = Process.Start("regedit.exe", "/s filetype.reg");
+            regeditProcess.WaitForExit();
+
+            //pai.DefaultIcon = new ProgramIcon(@"C:\Program Files\Ice\iceicon.ico");
+
         }
     }
 }

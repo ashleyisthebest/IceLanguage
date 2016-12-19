@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+;For .ice extension
+;-----------------
+
+[HKEY_CLASSES_ROOT\IceFile\DefaultIcon]
+@="c:\\Program Files\\Ice\\iceicon.ico"
+

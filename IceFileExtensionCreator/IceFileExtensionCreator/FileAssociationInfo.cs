@@ -546,7 +546,6 @@ namespace BrendanGrant.Helpers.FileAssociation
 
          RegistryKey root = Registry.ClassesRoot;
 
-         root.DeleteSubKeyTree(file.extension);
       }
    }
 }
