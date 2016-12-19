@@ -14,20 +14,35 @@ Module Module1
 
         'Determine whether the directory exists.
         If Directory.Exists(path) Then
+            Console.ForegroundColor = ConsoleColor.Green
             Console.WriteLine("Ice is already installed.")
-            Console.ReadLine()
         Else
             'Try to create the directory.
             Dim di As DirectoryInfo = Directory.CreateDirectory(path)
-            Console.WriteLine("The directory was created successfully at {0}.", Directory.GetCreationTime(path))
-            Console.ReadLine()
+            Console.ForegroundColor = ConsoleColor.Green
+            Console.WriteLine("The directory was created successfully at {0!.", Directory.GetCreationTime(path))
         End If
+
+        'Installing the filetype
+        Try
+            Process.Start("FileAssociation.exe")
+            Console.ForegroundColor = ConsoleColor.Green
+            Console.WriteLine("The file type was successfully installed!")
+        Catch e As Exception
+            Console.ForegroundColor = ConsoleColor.Red
+            Console.WriteLine(e)
+        End Try
 
         'Moving the icon
         If System.IO.File.Exists(currentPath + "\iceicon.ico") = True Then
-            Console.ForegroundColor = ConsoleColor.Green
-            Console.WriteLine("iceicon.ico successfully moved!")
-            My.Computer.FileSystem.CopyFile(currentPath + "\iceicon.ico", path + "\iceicon.ico")
+            Try
+                Console.ForegroundColor = ConsoleColor.Green
+                Console.WriteLine("iceicon.ico successfully moved!")
+                My.Computer.FileSystem.CopyFile(currentPath + "\iceicon.ico", path + "\iceicon.ico")
+            Catch e As Exception
+                Console.ForegroundColor = ConsoleColor.Red
+                Console.WriteLine(e)
+            End Try
         Else
             Console.ForegroundColor = ConsoleColor.Red
             Console.WriteLine("There was an error moving iceicon.ico")
