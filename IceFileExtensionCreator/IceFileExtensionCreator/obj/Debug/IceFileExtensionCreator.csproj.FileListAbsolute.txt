@@ -5,3 +5,9 @@ C:\Users\Ashley\Documents\GitHub\IceLanguageCompiler\IceFileExtensionCreator\Ice
 C:\Users\Ashley\Documents\GitHub\IceLanguageCompiler\IceFileExtensionCreator\IceFileExtensionCreator\bin\Debug\IceFileExtensionCreator.pdb
 C:\Users\Ashley\Documents\GitHub\IceLanguageCompiler\IceFileExtensionCreator\IceFileExtensionCreator\obj\Debug\IceFileExtensionCreator.exe
 C:\Users\Ashley\Documents\GitHub\IceLanguageCompiler\IceFileExtensionCreator\IceFileExtensionCreator\obj\Debug\IceFileExtensionCreator.pdb
+C:\Users\Ashley\Documents\GitHub\IceLanguage\IceFileExtensionCreator\IceFileExtensionCreator\bin\Debug\IceFileExtensionCreator.exe.config
+C:\Users\Ashley\Documents\GitHub\IceLanguage\IceFileExtensionCreator\IceFileExtensionCreator\obj\Debug\IceFileExtensionCreator.exe
+C:\Users\Ashley\Documents\GitHub\IceLanguage\IceFileExtensionCreator\IceFileExtensionCreator\obj\Debug\IceFileExtensionCreator.pdb
+C:\Users\Ashley\Documents\GitHub\IceLanguage\IceFileExtensionCreator\IceFileExtensionCreator\bin\Debug\IceFileExtensionCreator.exe
+C:\Users\Ashley\Documents\GitHub\IceLanguage\IceFileExtensionCreator\IceFileExtensionCreator\bin\Debug\IceFileExtensionCreator.pdb
+C:\Users\Ashley\Documents\GitHub\IceLanguage\IceFileExtensionCreator\IceFileExtensionCreator\obj\Debug\IceFileExtensionCreator.csprojResolveAssemblyReference.cache

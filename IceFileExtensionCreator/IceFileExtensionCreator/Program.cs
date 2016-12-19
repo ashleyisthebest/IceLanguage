@@ -13,14 +13,14 @@ namespace IceFileExtensionCreator
             FileAssociationInfo fai = new FileAssociationInfo(".ice");
             if (!fai.Exists)
             {
-                fai.Create("ice");
+                fai.Create("IceFile");
 
                 //Specify MIME type (optional)
-                fai.ContentType = "ice/ice";
+                fai.ContentType = "code/icefile";
 
                 //Programs automatically displayed in open with list
                 fai.OpenWithList = new string[]
-               { "notepad.exe", "wordpad.exe", "notepad++.exe" };
+               { "notepad.exe", "wordpad.exe", "atom.exe", "Notepad++.exe" };
             }
 
             ProgramAssociationInfo pai = new ProgramAssociationInfo(fai.ProgID);
@@ -29,19 +29,18 @@ namespace IceFileExtensionCreator
                 pai.Create
                 (
                 //Description of program/file type
-                "An ice language file",
+                "Ice File",
 
                 new ProgramVerb
                      (
                      //Verb name
                      "Open",
                      //Path and arguments to use
-                     @"C:\ProgramFiles\Ice\icecompiler.exe %1"
+                     @"C:\Users\Ashley\AppData\Local\atom\app-1.12.5\atom.exe %1"
                      )
                    );
 
-                //optional
-                pai.DefaultIcon = new ProgramIcon(@"C:\ProgramFiles\Ice\iceicon.ico");
+                pai.DefaultIcon = new ProgramIcon(@"C:\Program Files\Ice\iceicon.ico");
             }
         }
     }
