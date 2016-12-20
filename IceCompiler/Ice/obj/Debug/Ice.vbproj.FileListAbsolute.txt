@@ -8,3 +8,13 @@ c:\users\ashley\documents\visual studio 2015\Projects\Ice\Ice\obj\Debug\Ice.vbpr
 c:\users\ashley\documents\visual studio 2015\Projects\Ice\Ice\obj\Debug\Ice.exe
 c:\users\ashley\documents\visual studio 2015\Projects\Ice\Ice\obj\Debug\Ice.xml
 c:\users\ashley\documents\visual studio 2015\Projects\Ice\Ice\obj\Debug\Ice.pdb
+C:\Users\Ashley\Documents\GitHub\IceLanguage\IceCompiler\Ice\bin\Debug\Ice.exe.config
+C:\Users\Ashley\Documents\GitHub\IceLanguage\IceCompiler\Ice\obj\Debug\Ice.exe
+C:\Users\Ashley\Documents\GitHub\IceLanguage\IceCompiler\Ice\obj\Debug\Ice.xml
+C:\Users\Ashley\Documents\GitHub\IceLanguage\IceCompiler\Ice\obj\Debug\Ice.pdb
+C:\Users\Ashley\Documents\GitHub\IceLanguage\IceCompiler\Ice\bin\Debug\Ice.exe
+C:\Users\Ashley\Documents\GitHub\IceLanguage\IceCompiler\Ice\bin\Debug\Ice.pdb
+C:\Users\Ashley\Documents\GitHub\IceLanguage\IceCompiler\Ice\bin\Debug\Ice.xml
+C:\Users\Ashley\Documents\GitHub\IceLanguage\IceCompiler\Ice\obj\Debug\Ice.vbprojResolveAssemblyReference.cache
+C:\Users\Ashley\Documents\GitHub\IceLanguage\IceCompiler\Ice\obj\Debug\Ice.Resources.resources
+C:\Users\Ashley\Documents\GitHub\IceLanguage\IceCompiler\Ice\obj\Debug\Ice.vbproj.GenerateResource.Cache

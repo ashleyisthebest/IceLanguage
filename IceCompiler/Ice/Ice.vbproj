@@ -68,7 +68,8 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Compiling.vb" />
+    <Compile Include="Compile.vb" />
+    <Compile Include="Split.vb" />
     <Compile Include="Shell.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
